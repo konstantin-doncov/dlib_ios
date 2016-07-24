@@ -2,8 +2,8 @@
 //  main.m
 //  dlib_ios
 //
-//  Created by kostya on 7/12/16.
-//  Copyright © 2016 kostya. All rights reserved.
+//  Created by user on 7/12/16.
+//  Copyright © 2016 user. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

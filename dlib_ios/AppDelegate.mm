@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  dlib_ios
 //
-//  Created by kostya on 7/12/16.
-//  Copyright © 2016 kostya. All rights reserved.
+//  Created by user on 7/12/16.
+//  Copyright © 2016 user. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-   // dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();
+    dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();
     return YES;
 }
 
