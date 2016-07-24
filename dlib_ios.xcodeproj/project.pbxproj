@@ -446,14 +446,14 @@
 					"-DENABLE_ASSERTS",
 				);
 				OTHER_LDFLAGS = (
-					/usr/lib/libpthread.dylib,
-					/usr/lib/liblapack.dylib,
-					/usr/local/lib/libjpeg.dylib,
-					/usr/local/lib/libpng.dylib,
+					"\"$(SRCROOT)/dependencies/libSystem.B.dylib\"",
+					"\"$(SRCROOT)/dependencies/libLAPACK.dylib\"",
+					"\"$(SRCROOT)/dependencies/libJPEG.dylib\"",
+					"\"$(SRCROOT)/dependencies/libPng.dylib\"",
 					"-Wl,-search_paths_first",
-					/usr/lib/libsqlite3.dylib,
-					/usr/lib/libcblas.dylib,
-					/usr/local/lib/DLIB/iOS/libdlib.a,
+					"\"$(SRCROOT)/dependencies/libsqlite3.dylib\"",
+					"\"$(SRCROOT)/dependencies/libBLAS.dylib\"",
+					"\"$(SRCROOT)/dependencies/libdlib.a\"",
 					"-Wl,-headerpad_max_install_names",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dktest.dlib-ios";
@@ -500,14 +500,14 @@
 					"-DNDEBUG",
 				);
 				OTHER_LDFLAGS = (
-					/usr/lib/libpthread.dylib,
-					/usr/lib/liblapack.dylib,
-					/usr/local/lib/libjpeg.dylib,
-					/usr/local/lib/libpng.dylib,
+					"\"$(SRCROOT)/dependencies/libSystem.B.dylib\"",
+					"\"$(SRCROOT)/dependencies/libLAPACK.dylib\"",
+					"\"$(SRCROOT)/dependencies/libJPEG.dylib\"",
+					"\"$(SRCROOT)/dependencies/libPng.dylib\"",
 					"-Wl,-search_paths_first",
-					/usr/lib/libsqlite3.dylib,
-					/usr/lib/libcblas.dylib,
-					/usr/local/lib/DLIB/iOS/libdlib.a,
+					"\"$(SRCROOT)/dependencies/libsqlite3.dylib\"",
+					"\"$(SRCROOT)/dependencies/libBLAS.dylib\"",
+					"\"$(SRCROOT)/dependencies/libdlib.a\"",
 					"-Wl,-headerpad_max_install_names",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dktest.dlib-ios";
