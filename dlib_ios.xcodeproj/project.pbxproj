@@ -447,9 +447,12 @@
 				);
 				OTHER_LDFLAGS = (
 					/usr/lib/libpthread.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/local/lib/libjpeg.dylib,
+					/usr/local/lib/libpng.dylib,
 					"-Wl,-search_paths_first",
 					/usr/lib/libsqlite3.dylib,
-					/usr/local/lib/libjpeg.dylib,
+					/usr/lib/libcblas.dylib,
 					/usr/local/lib/DLIB/iOS/libdlib.a,
 					"-Wl,-headerpad_max_install_names",
 				);
@@ -498,9 +501,12 @@
 				);
 				OTHER_LDFLAGS = (
 					/usr/lib/libpthread.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/local/lib/libjpeg.dylib,
+					/usr/local/lib/libpng.dylib,
 					"-Wl,-search_paths_first",
 					/usr/lib/libsqlite3.dylib,
-					/usr/local/lib/libjpeg.dylib,
+					/usr/lib/libcblas.dylib,
 					/usr/local/lib/DLIB/iOS/libdlib.a,
 					"-Wl,-headerpad_max_install_names",
 				);
