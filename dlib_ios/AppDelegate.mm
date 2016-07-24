@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#include <DLIB/image_processing/frontal_face_detector.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+   // dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();
     return YES;
 }
 
